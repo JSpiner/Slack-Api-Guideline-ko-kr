@@ -12,9 +12,13 @@
     - Incoming Webhook : 채팅전송 등 몇가지 기능을 POST방식으로 슬랙서버로 요청만 가능합니다.
     - Outgoing Webhook : 특정 채널 혹은 특정 단어에 대해서 지정된 url로 http 방식으로 callback을 받을 수 있습니다.
 - APP과 Integration 공용 
-    - RTM API
-    - Bot User 
-    - Slash Command 
-- SCIM API 
-[APP GUIDE](./bot.md) 
-[INTEGRATION GUIDE](./bot.md)
+    - RTM API : websocket방식으로 지정된 권한 내에서 이벤트를 실시간으로 받고 요청을 보낼 수 있습니다.
+    - Bot User : 봇을 하나의 '유저'와 같이 이용 할 수 있습니다.
+    - Slash Command : 지정된 커맨드를 입력하면 http(s) 방식으로 지정된 url로 callback을 받을 수 있고 응답이 가능합니다.
+- SCIM API : SSO 로그인을 위한 api입니다.
+
+
+
+
+[App API 가이드 문서](./bot.md)  
+[Integration API 가이드 문서](./bot.md)
